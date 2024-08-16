@@ -1,0 +1,40 @@
+Algoritmo para suministrar informacion personal de un producto 
+1. iniciar 
+2. obtener la informacion del producto nombre del producto, descripcion del producto, precio del producto, codigo de barras 
+3. mostar la informacion del producto 
+4. finalizar 
+
+
+pseudocodigo problema 1: informacion de un producto 
+
+
+Program informaciondeunproducto
+start
+
+//Un programa para mostrar el nombre, descripcion, precio y codigo de barras 
+
+//Declaracion de variables 
+Declare string name 
+Declare string Descripcion 
+Declare Float precio 
+Declare string codigo_barra
+
+//obtener datos del producto
+
+"Display" "por favor, digite el nombre del producto"
+Imput name 
+
+Display "por favor, digite la descripción del producto" 
+Imputo descripcion 
+
+
+Display "por favor, digite el precio del producto" 
+Imput precio
+
+Display "por favor, digite el codigo de barra del producto "
+Imput codigo_barra
+
+// Mostrar informacion 
+display "informacion personal de ", name, ", descripcion, ", precio, ", codigo_barra"
+
+end 
