@@ -1,0 +1,43 @@
+Algoritmo programa de ganancias y perdidas en un negocio de venta de autos
+
+1.iniciar
+2.Pedir precio de compra automovil 
+3. Pedir el precio de las reparaciones 
+4.pedir el precio de venta del automóvil 
+5.pedir porcentaje de comisión del vendedor 
+6.calcular el costo total del automóvil sumando el precio de compra con el precio de reparaciones 
+7.calcular la comisión del vendedor multiplicando el precio de venta por el porcentaje de comisión 
+8.calcukar la ganancia después de la venta del automóvil  restando el precio de venta menos el costo invertido menos la comisión del vendedor.
+9.mostrar costo invertido
+10.mostrar comisión del vendedor
+11.mostrar ganancias
+12.fin
+
+pseudocodigo problema 3: programa de ganancias y perdidas en un negocio de venta de autos
+
+Program calcularGananciasPerdidas
+Start
+    // Declarar variables
+    Declare integer precioCompra = 15000
+    Declare integer costoReparaciones = 2000
+    Declare integer precioVenta = 18500
+    Declare float comisionVendedor
+    Declare float costoTotal
+    Declare float gananciaPerdida
+
+    // Calcular comisión del vendedor
+    Set comisionVendedor = precioVenta * 0.05
+
+    // Calcular el costo total invertido en el automóvil
+    Set costoTotal = precioCompra + costoReparaciones
+
+    // Calcular la ganancia o pérdida
+    Set gananciaPerdida = precioVenta - costoTotal - comisionVendedor
+
+    // Mostrar la información
+    Display "Costo total invertido en el automóvil: $", costoTotal
+    Display "Monto de la comisión pagada al vendedor: $", comisionVendedor
+    Display "Precio final de venta: $", precioVenta
+    Display "Ganancia o pérdida después de la venta: $", gananciaPerdida
+
+End
